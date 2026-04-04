@@ -1,0 +1,337 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775286615224,
+  "projectRoot": "C:\\Users\\ktmis010\\bahtflow-web\\.claude\\worktrees\\eloquent-shaw",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.0.0",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1775286615141,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1775286615142,
+      "keyFiles": [
+        "App.css",
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 1,
+      "lastAccessed": 1775286615177,
+      "keyFiles": [
+        "hero.png"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1775286615178,
+      "keyFiles": []
+    },
+    "src\\pages": {
+      "path": "src\\pages",
+      "purpose": "Page components",
+      "fileCount": 1,
+      "lastAccessed": 1775286615179,
+      "keyFiles": [
+        "Login.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 10,
+      "lastAccessed": 1775291677039,
+      "type": "directory"
+    },
+    {
+      "path": "src\\pages\\AddTransactionPage.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1775291686738,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\HistoryPage.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1775291736489,
+      "type": "file"
+    },
+    {
+      "path": "tailwind.config.js",
+      "accessCount": 4,
+      "lastAccessed": 1775291366427,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775287198085,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.css",
+      "accessCount": 3,
+      "lastAccessed": 1775291377753,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\Icon.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291384017,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\LoginPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291489938,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\SignupPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291505517,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\ForgotPasswordPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291518176,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\dashboard\\BalanceHeader.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291570014,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\dashboard\\SummaryCards.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291581591,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\dashboard\\RecentList.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291603877,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\dashboard\\CategoryBreakdown.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291612974,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\DashboardPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291620506,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\ProfilePage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775291765723,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\expense\\expense.api.ts",
+      "accessCount": 3,
+      "lastAccessed": 1775293054865,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\auth\\auth.service.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775287015528,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\auth\\useAuth.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775287216600,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1775291371997,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\layout\\AppLayout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775291420109,
+      "type": "file"
+    },
+    {
+      "path": "src\\layout\\MainLayout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775291427258,
+      "type": "file"
+    },
+    {
+      "path": "src\\layout\\Sidebar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775291448158,
+      "type": "file"
+    },
+    {
+      "path": "src\\layout\\Topbar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775291457018,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\dashboard\\ChartSection.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775291592495,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775286743705,
+      "type": "file"
+    },
+    {
+      "path": ".claude\\launch.json",
+      "accessCount": 1,
+      "lastAccessed": 1775286948349,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\Login.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775286965291,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\expense\\useTransactions.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775286971293,
+      "type": "file"
+    },
+    {
+      "path": "src\\modules\\expense\\TransactionForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775286979198,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\layout\\BottomNav.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775287209596,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\modals\\DeleteConfirmationModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775291787614,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\modals\\SuccessModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775291794180,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\modals\\AddTransactionModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775291805651,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\modals\\CategoryModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775291815397,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

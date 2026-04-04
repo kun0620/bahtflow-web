@@ -1,32 +1,45 @@
 // src/layout/Topbar.tsx
+import { useLocation } from 'react-router-dom'
+import { Icon } from '@/components/ui/Icon'
+
+const PAGE_TITLES: Record<string, string> = {
+  '/dashboard': 'Dashboard',
+  '/add': 'New Entry',
+  '/history': 'Transaction History',
+  '/profile': 'Profile',
+}
+
 export default function Topbar() {
+  const location = useLocation()
+  const pageTitle = PAGE_TITLES[location.pathname] || 'Dashboard'
+
+  const today = new Date()
+  const dateStr = today.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  })
+
   return (
-    <header className="flex justify-between items-center px-8 py-4 bg-surface sticky top-0">
+    <header className="flex justify-between items-center px-8 py-4 bg-surface sticky top-0 border-b border-outline-variant/20">
 
-      <div className="flex items-center gap-2">
-        <span className="text-primary font-bold">
-          Overview
-        </span>
+      <h1 className="text-xl font-semibold text-on-surface font-headline">
+        {pageTitle}
+      </h1>
 
-        <span className="text-gray-400">/</span>
-
-        <span className="text-sm text-gray-500">
-          Monthly Ledger
-        </span>
-      </div>
-
-      <div className="flex items-center gap-6">
-
-        <div className="flex items-center gap-2 bg-surface-low px-4 py-2 rounded-full text-sm text-primary">
-          October 2023
+      <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 bg-surface-container-low px-4 py-2 rounded-full text-sm text-on-surface font-medium">
+          <Icon name="calendar_today" size={16} className="text-on-surface-variant" />
+          {dateStr}
         </div>
 
-        <div className="flex gap-2">
-          <button className="p-2 rounded-full hover:bg-surface-low">
-            ⚙️
-          </button>
-        </div>
+        <button className="p-2 rounded-full hover:bg-surface-container-low transition-colors">
+          <Icon name="notifications" size={20} className="text-on-surface-variant" />
+        </button>
 
+        <button className="p-2 rounded-full hover:bg-surface-container-low transition-colors">
+          <Icon name="settings" size={20} className="text-on-surface-variant" />
+        </button>
       </div>
     </header>
   )

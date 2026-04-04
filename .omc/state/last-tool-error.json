@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\ktmis010\\\\bahtflow-web\\\\.claude\\\\worktrees\\\\eloquent-shaw\\\" && gh pr create --title \\\"feat: Financial Sanctuary UI redesign + Supabase schema\\\" --body \\\"$(cat <<'EOF'\\n## S...",
+  "error": "Exit code 127\n/usr/bin/bash: line 63: gh: command not found",
+  "timestamp": "2026-04-04T09:13:21.884Z",
+  "retry_count": 1
+}
